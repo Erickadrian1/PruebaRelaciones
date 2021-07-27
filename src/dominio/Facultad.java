@@ -1,14 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package dominio;
 
-/**
- *
- * @author Erick
- */
+import java.util.ArrayList;
+
 public class Facultad {
+    
+     private String facultad;
+     
+     private Director director;   
+     private ArrayList<Carrera> carrera = new ArrayList<>();
+     private ArrayList<Profesor> profesor = new ArrayList();
+
+    public Facultad(String facultad) {
+        this.facultad = facultad;
+    }
+
     
 }
